@@ -1,0 +1,163 @@
+
+
+body{
+	font-family: Bahnschrift SemiBold;
+}
+
+
+.container-table{
+	width: 90%;
+	background:#FFFFFF;
+	margin: 50px auto;
+	 box-shadow: 0 0 20px #333;
+	
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-auto-rows: 45px;
+	
+}
+
+.table-title{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	
+	background:  #088DC4;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 1.9em;
+}
+
+.table-header, .table-item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.table-header{
+	
+	font-weight: bold;
+	font-size: 1.2em;
+	
+}
+.table-item{
+	padding: 14px 0;
+	font-size: 18px;
+	
+	
+}
+
+header{
+	width: 100%;
+	height: 140px;
+	background: #088DC4;
+	color: white;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	
+}
+.contenedor{
+	width: 98%;
+	margin: auto;
+}
+h1{
+	float: left;
+}
+
+header .contenedor{
+	display: table;
+}
+
+section{
+	width: 100%;
+	margin-bottom: 30px;
+}
+#menu-bar{
+	display: none;
+	
+}
+
+header label{
+	float: right;
+	font-size: 60px;
+	margin: 9px ;
+	cursor: pointer;
+}
+.MENU{
+	position: absolute;
+	top: 138px;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background: rgba(51,51,51,0.9);
+	transition: all 0.5s;
+	transform: translateX(-100%);
+}
+
+.MENU a{
+	display: block;
+	color: white;
+	height: 50px;
+	text-decoration: none;
+	padding: 3px;
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+
+
+.MENU a:hover{
+	background: rgba(255,255,255,0.3);
+}
+
+#menu-bar:checked~.MENU{
+	transform: translateX(0%);
+}
+
+
+
+
+
+
+
+
+ .INFORMACION img{
+	 justify-content:center;
+	width: 600px;
+	height: 400px;
+	 box-shadow: 0 0 20px #333;
+}
+
+#lista{
+	background: rgba(16,189,187,0.28);
+	width: 100%;
+	
+}
+
+#lista h3{
+	color:black;
+	font-family: Bahnschrift SemiBold;
+	margin: 12px 13px;
+}
+
+#lista ul {
+	color:#868484;
+	padding:  0 14px;
+	margin: auto;
+}
+
+
+.INFORMACION h2{
+	color: #088DC4;
+	font-size: 28px;
+}
+
+.INFORMACION P{
+	font-size: 20PX;
+	color: #868484;
+}

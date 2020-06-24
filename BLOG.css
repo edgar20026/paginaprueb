@@ -1,0 +1,74 @@
+#MISION{
+	background: rgba(3,95,192,0.14);
+	text-align: center;
+	padding: 35px;
+	
+}
+#MISION h5{
+	font-size:45px;
+}
+#MISION h6{
+	font-size:27px;
+	
+}
+
+.mision-pet{
+	margin: 20px;
+}
+
+.mision-pet img{
+	width: 370px;
+	height: 350px;
+}
+
+
+#MISION .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+
+#BLOG {
+	text-align: center;
+	
+}
+ 
+#BLOG .contenedor{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+	
+}
+
+#BLOG article{
+	margin: 15px;
+}
+
+#BLOG img{
+	width: 100%;
+	max-height: 200px;
+	transition: transform 0.2s;
+	border-radius: 10%;
+	border: 5px solid #088DC4;
+	
+}
+
+#BLOG h7{
+	font-size: 28px;
+
+}
+
+#BLOG h8{
+	font-size: 22px;
+	
+}
+
+#BLOG a:hover img{
+	filter: blur(2px);
+	transform: rotate(10deg) scale(0.9);
+		
+}
+
